@@ -1,0 +1,23 @@
+const SampleQuotes = [
+
+{"ID":1704,"title":"Ernest Hemingway","content":"<p>Write drunk; edit sober.<\/p>\n","link":"https:\/\/quotesondesign.com\/ernest-hemingway\/"},
+
+{"ID":1665,"title":"Andrew Hunt","content":"<p>The ability to change on a dime is one thing small teams have by default that big teams can never have. This is where the big guys envy the little guys. What might take a big team in a huge organization weeks to change may only take a day in a small, lean organization. That advantage is priceless.<\/p>\n","link":"https:\/\/quotesondesign.com\/andrew-hunt\/","custom_meta":{"Source":"<a href=\"http:\/\/gettingreal.37signals.com\/ch03_Lower_Your_Cost_of_Change.php\">article<\/a>"}},
+
+{"ID":2155,"title":"Samadara Ginige","content":"<p>Why expect spec work from a graphic designer when you don&#8217;t expect the same from a dentist?<\/p>\n","link":"https:\/\/quotesondesign.com\/samadara-ginige\/"},
+
+{"ID":1769,"title":"Khoi Vinh","content":"<p>Unsolicited redesigns are terrific and fun and useful, and I hope designers never stop doing them. But as they do so, I also hope they remember it helps no one &#8211; least of all the author of the redesign &#8211; to assume the worst about the original source and the people who work hard to maintain and improve it, even though those efforts may seem imperfect from the outside.<\/p>\n","link":"https:\/\/quotesondesign.com\/khoi-vinh-2\/","custom_meta":{"Source":"<a href=\"http:\/\/www.subtraction.com\/2011\/07\/28\/unsolicited-redesigns\">article<\/a>"}},
+
+{"ID":1546,"title":"Chad McMillan","content":"<p>Designing something is like having a baby. Asking me to try another design once I&#8217;ve birthed something amazing is like asking me to put the baby back in the womb and try again. That never works out for anyone.<\/p>\n","link":"https:\/\/quotesondesign.com\/chad-mcmillan\/"},
+
+{"ID":2222,"title":"Martin Scorsese","content":"<p>There is no such thing as simple. Simple is hard.<\/p>\n","link":"https:\/\/quotesondesign.com\/martin-scorsese\/"},
+
+{"ID":620,"title":"Marc Chagall","content":"<p>If I create from the heart, nearly everything works; if from the head, almost nothing.  <\/p>\n","link":"https:\/\/quotesondesign.com\/marc-chagall\/"},
+
+{"ID":1282,"title":"Bill Buxton","content":"<p>Now that we can do anything, what should we do?  <\/p>\n","link":"https:\/\/quotesondesign.com\/bill-buxton\/"},
+
+{"ID":1736,"title":"Asher Trotter","content":"<p>Creating something out of thin air is easy. It&#8217;s finding the air that&#8217;s hard.<\/p>\n","link":"https:\/\/quotesondesign.com\/asher-trotter\/"},
+
+{"ID":913,"title":"Larry Erickson","content":"<p>Using simpler forms and straightforward, easy-to-use instruments and controls allows you to achieve a very high level of craftsmanship. We then use color and texture to create a personality for each vehicle.  <\/p>\n","link":"https:\/\/quotesondesign.com\/larry-erickson\/"}]
+
+export default SampleQuotes

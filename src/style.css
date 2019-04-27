@@ -1,0 +1,247 @@
+* {
+}    
+html, body {
+    font-family: Apple Chancery, Bradley Hand, SignPainter, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    margin: 10px;
+    height: 100%;
+}
+h1{
+    margin: 10px 100px 0px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavender;
+    text-align: center;
+    font-size: 50px;
+} 
+h2 {
+    color: lavender;
+    text-align: center;
+    font-size: 50px;
+}
+h3 {
+    margin: 0px 0px 0px 0px;
+    color: lavender;
+    text-align: center;
+    float: right;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-style: normal;
+    font-weight: 700;
+    color: lavender;
+}
+p > a:hover {
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(247, 21, 247);
+}
+.bodyTag {
+    color: lavender;
+}
+.leftQ {
+    color: lavender;
+    margin: 80px 0 0px 50px;
+    float: left;
+    font-size: 150px;
+    font-family: sans-serif;
+}
+.rightQ {
+    color: lavender;
+    float: right;
+    margin: -150px 80px 50px 10px;
+    font-size: 150px;
+    font-family: sans-serif;
+}
+.quote {
+    float: none;
+    color: 'lavender';
+    font-size: 28px;
+    margin: 0px 100px 0px 100px;
+}
+.save {
+    /* float: left; */
+    color: 'lavender';
+    background-color: violet;
+    font-size: 16px;
+    margin: 20px 40px 0px 40px;
+}
+button {
+    /* text-align: center; */
+    /* float: right; */
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.navBar > div {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+.navBar > div:nth-child(1) {
+    background-color: lightsalmon;	
+}
+.navBar > div:nth-child(2) {
+    background-color: lightsalmon;
+}
+.navBar > div:nth-child(3) {
+    background-color: lightsalmon;
+    /* background-color: rgba(179, 62, 202, 0.904); */
+}
+.navBar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid purple;
+    margin: 0 0 25px 0;
+    display: flex;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer > div {
+    padding: 2px 20px 2px 20px;
+    text-align: center;
+}
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border: 3px solid purple;
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    margin: 50px 0 20px 0;
+    text-decoration: none;
+}
+.footer > div:nth-child(1) {
+    background-color: violet;	
+}
+.footer > div:nth-child(2) {
+    background-color: violet;
+}
+.footer > div:nth-child(3) {
+    background-color: violet;
+    /* background-color: rgba(179, 62, 202, 0.904); */
+}
+/* .quotation {
+    font-family: Apple Chancery, Bradley Hand, SignPainter, sans-serif;
+    font-size: 50px;
+} */
+.home {
+    flex: 1 1 0;
+}
+/* Dropdown Button */
+.dropbtn {
+    margin: 0px 0px 0px 20px;
+    background-color: purple;
+    color: lavender;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin: 0px 0px 0px 20px;
+    position: relative;
+    font-style: italic;
+    display: inline-block;
+  }
+/* Dropdown Content (Hidden by Default) */ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: violet;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: lavender;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    height: 34px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    /* color: violet; */
+    /* background-color: lightblue; */
+    font-style: italic;
+}
+.post {
+    background-image: url("https://images.unsplash.com/photo-1554398063-26678c252e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    /* 
+    https://cdn-images-1.medium.com/
+    
+    background-color: #999999; */
+    /* height: 110%; */
+    /* width: 110%; */
+}
+
+@media only screen and (max-width: 750px){
+    * {
+        /* margin: 10px 0 10px 0; */
+    }
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    h3 {
+        margin: 0px 0 50px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    p { 
+        font-size: 36px;
+    }
+    .navBar {
+        display: block;
+        /* padding: 1px 3px 1px 3px; */
+        padding: 0px 0px 0px 0px;
+    }    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        justify-content: center;
+    }            
+    .leftQ {
+        color: lavender;
+        margin: 120px 0 0px 50px;
+        float: left;
+        font-size: 100px;
+        font-family: sans-serif;
+    }
+    .rightQ {
+        color: lavender;
+        float: right;
+        margin: -90px 80px 50px 0px;
+        font-size: 100px;
+        font-family: sans-serif;
+    }
+    .save {
+        /* float: left; */
+        color: 'lavender';
+        background-color: violet;
+        font-size: 14px;
+        margin: 20px 40px 20px 40px;
+    }
+}
