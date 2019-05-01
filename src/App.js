@@ -21,6 +21,7 @@ class App extends Component {
         return (
         <div style={styles} className='post'>
             <Navbar />
+            <div className='border'>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/favorites" component={Favorites} />
@@ -28,6 +29,7 @@ class App extends Component {
                 <Route path="/acknowledgements" component={Acknowledgements} />
                 <Route path="/contact" component={Contact} />
             </Switch> 
+            </div>
             <Footer />
         </div>
         );
