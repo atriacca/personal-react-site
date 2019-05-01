@@ -13,7 +13,7 @@ function Quote (props) {
         <div>
             <div>
                 <div className='leftQ'>&ldquo;</div>
-                <h1>DevQuotes</h1>
+                <h1>devQuotes.js</h1>
                 <h3 className='quote'>Quotes for developers and designers</h3>
                 <h2 style={styles} className='quote'>
                 <span dangerouslySetInnerHTML={{ __html : props.quotation.content}} /></h2>
